@@ -1,26 +1,15 @@
 package Employee;
 
 public class Arthope {
-    public static void main(String[] args) {
-        double num1 = 20.0;
-        double num2 = 10.0;
+    public static void main(String[] args){
 
-        double sum = num1 + num2;
-        double difference = num1 - num2;
-        double product = num1 * num2;
-        double quotient = 0;
+        double a=12;
+        double b=27;
+        System.out.println("Addition "+(a+b));
+        System.out.println("Subtraction "+(a-b));
+        System.out.println("Multiplication "+(a*b));
+        System.out.println("Division "+(a/b));
 
-        if (num2 != 0) {
-            quotient = num1 / num2;
-        } else {
-            System.out.println("Division by zero is not allowed.");
-        }
-
-        System.out.println("Addition: " + num1 + " + " + num2 + " = " + sum);
-        System.out.println("Subtraction: " + num1 + " - " + num2 + " = " + difference);
-        System.out.println("Multiplication: " + num1 + " * " + num2 + " = " + product);
-        if (num2 != 0) {
-            System.out.println("Division: " + num1 + " / " + num2 + " = " + quotient);
-        }
+        
     }
 }
